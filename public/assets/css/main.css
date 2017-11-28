@@ -1,0 +1,55 @@
+body{
+    /* background-color: rgb(243, 57, 57); */
+    /* background: url('../images/background.png') no-repeat center center fixed; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    background: radial-gradient(rgb(16, 56, 190), rgb(5, 5, 4));
+}
+ #wrapper{
+    width:1200px;
+    margin: 0 auto;
+ }
+ #articles{
+    width:60%;
+    height:700px;
+    display:inline-block;
+    overflow: auto;
+    background-color: rgb(88, 96, 141); 
+    padding-left: 20px;
+    padding-right: 20px;
+    font-style: Verdana;
+    border-radius: 2px;
+ }
+ #notes{
+    color: rgb(255, 255, 255);
+    width:30%;
+    float:right;
+ }
+ textarea, input{
+    display:block;
+    width:100%;
+    background-color: rgb(232, 250, 152);
+ }
+ input{
+    height:36px;
+    font-size: 35px;
+ }
+ textarea{
+    height:200px;
+    font-size: 25px;
+ }
+ .heading {
+      font-style: Verdana;
+      color: rgb(255, 255, 255);
+      font-size: 70px;
+}
+.headline {
+     font-size: 30px;
+}
+p{
+   color: white;
+   font-size: 25px; 
+}
+h2{
+    color: white;
+}
